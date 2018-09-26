@@ -1,4 +1,8 @@
-script: 
-  - ifconfig
-  - netstat
-  - ping -c 2 192.168.30.182
+# script: 
+#   - ifconfig
+#   - netstat
+#   - ping -c 2 192.168.30.182
+
+language: node_js
+node_js:
+  - 0.8
